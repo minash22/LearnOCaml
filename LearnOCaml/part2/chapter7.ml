@@ -41,7 +41,7 @@ print_endline ("Grade for 45 → " ^ grade 45) ;;
 let sign n =
   if n > 0 then "positive"
   else if n < 0 then "negative"
-  else "zero" ;;
+  else "zero" ;; 
 
 print_endline ("Sign of 10 → " ^ sign 10) ;;
 print_endline ("Sign of -5 → " ^ sign (-5)) ;;
